@@ -18,3 +18,5 @@ jobs:
       uses: projectdiscovery/subfinder-action@main
       with:
         domain: "${{ github.event.inputs.name }}"
+        active: true
+        json: true
